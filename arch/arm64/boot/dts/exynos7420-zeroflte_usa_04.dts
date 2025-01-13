@@ -912,8 +912,4 @@
 		vdd_vmmc-supply = <&ldo25_reg>;
 		vqmmc-supply = <&ldo2_reg>;
 	};
-
-	decon_0: decon_fb {
-		gpio_pcd = <&gpa1 2 0>;
-	};
 };
